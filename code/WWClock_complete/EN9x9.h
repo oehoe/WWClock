@@ -7,6 +7,8 @@
 #define TIME_URL "http://worldtimeapi.org/api/timezone/Europe/Amsterdam"
 
 //set correct type of ledstrip. Ref: https://github.com/adafruit/Adafruit_NeoPixel
+//For WS2812b: NEO_GRB
+//For SK6812: NEO_GRBW
 #define STRIP_TYPE NEO_GRBW
 
 //set true if ledstrip is rgbw ledstrip
