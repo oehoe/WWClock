@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   sodipodi:docname="NL9x9_mini_objects.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="9.0202915"
+     inkscape:cx="20.06587"
+     inkscape:cy="25.886081"
+     inkscape:window-width="1470"
+     inkscape:window-height="891"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2-0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2-0"
+     inkscape:label="dijkstra"
+     transform="translate(0.12381521,13.403044)"
+     style="display:inline">
+    <g
+       aria-label="K"
+       id="text13524"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0">
+      <path
+         d="m 0.38464914,-12.092498 v -0.959633 h 0.15885377 v 0.959633 z m 0.31640547,-0.466145 0.33333249,0.466145 H 0.85339798 L 0.5968882,-12.470101 v -0.190104 l 0.23307234,-0.391926 H 1.0083455 Z"
+         id="path3771" />
+    </g>
+    <g
+       aria-label="W"
+       id="text13528"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0">
+      <path
+         d="m 2.1047011,-12.224008 0.1822912,-0.828123 h 0.061198 v 0.347656 L 2.2062633,-12.08729 H 2.0018367 l -0.2434889,-0.964841 h 0.1770829 z m 0.7122378,-0.828123 h 0.1770829 l -0.259114,0.964841 H 2.5317834 l -0.1302081,-0.592446 v -0.372395 h 0.0625 l 0.1692704,0.828123 z"
+         id="path3774" />
+    </g>
+    <g
+       aria-label="A"
+       id="text13532"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0">
+      <path
+         d="M 4.4549598,-12.092498 H 4.2935019 l -0.2486973,-0.718748 -0.2513015,0.718748 h -0.16276 l 0.3359367,-0.958331 h 0.1549475 z m -0.3242179,-0.304687 0.03776,0.105469 H 3.9198049 l 0.036458,-0.105469 z"
+         id="path3777" />
+    </g>
+    <g
+       aria-label="R"
+       id="text13536"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0">
+      <path
+         d="m 5.3839992,-13.052131 h 0.1562496 v 0.959633 H 5.3839992 Z m 0.65104,0.959633 H 5.869675 l -0.1809891,-0.347655 q -0.00391,0 -0.00911,0.0013 -0.00391,0 -0.013021,0 -0.00911,0 -0.027344,0 -0.016927,0 -0.045573,0 v -0.114583 h 0.088541 q 0.028646,0 0.057292,-0.0091 0.028646,-0.01042 0.052083,-0.03255 0.023437,-0.02214 0.03776,-0.0612 0.014323,-0.04036 0.014323,-0.09896 0,-0.02344 -0.00651,-0.05339 -0.00651,-0.03125 -0.027344,-0.05859 -0.019531,-0.02865 -0.055989,-0.04687 -0.036458,-0.01953 -0.096354,-0.01953 h -0.063802 v -0.118489 h 0.066406 q 0.061198,0 0.1210934,0.01953 0.059896,0.01953 0.1067706,0.05859 0.048177,0.03906 0.076823,0.09505 0.029948,0.05469 0.029948,0.123697 0,0.104167 -0.048177,0.177083 -0.048177,0.07292 -0.130208,0.108073 z"
+         id="path3780" />
+    </g>
+    <g
+       aria-label="T"
+       id="text13540"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0">
+      <path
+         d="m 7.7414194,-13.052131 v 0.106771 H 7.4549617 v 0.852862 H 7.29741 V -12.94536 H 7.0109524 v -0.106771 z"
+         id="path3783" />
+    </g>
+    <g
+       aria-label="T"
+       id="text13544"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0">
+      <path
+         d="m 9.4080859,-13.052131 v 0.106771 H 9.1216282 v 0.852862 H 8.9640766 V -12.94536 H 8.6776189 v -0.106771 z"
+         id="path3786" />
+    </g>
+    <g
+       aria-label="I"
+       id="text13548"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0">
+      <path
+         d="m 10.788945,-12.092498 h -0.158854 v -0.959633 h 0.158854 z"
+         id="path3789" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13552"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0">
+      <path
+         d="m 12.076054,-13.052131 h 0.158854 v 0.959633 h -0.158854 z m 0.559895,0.527343 h -0.347656 v -0.106771 h 0.347656 z m -0.347656,0.313801 h 0.38802 v 0.118489 h -0.38802 z m 0.38802,-0.841144 v 0.118489 h -0.38802 v -0.118489 z"
+         id="path3792" />
+    </g>
+    <g
+       aria-label="N"
+       id="text13556"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;stroke:#000000;stroke-width:0">
+      <path
+         d="m 14.231002,-13.052131 h 0.158853 v 0.959633 h -0.158853 l -0.322916,-0.567707 v -0.299478 l 0.322916,0.569009 z m -0.535155,0.959633 v -0.959633 h 0.158854 v 0.959633 z"
+         id="path3795" />
+    </g>
+    <g
+       aria-label="V"
+       id="text13524-5"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 0.30261806,-11.38286 h 0.17838497 l 0.20182242,0.752602 v 0.212239 H 0.6007944 Z m 0.63671717,0 H 1.1164181 l -0.3124992,0.964841 h -0.0677082 v -0.253906 z"
+         id="path3798" />
+    </g>
+    <g
+       aria-label="I"
+       id="text13528-8"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 2.4556117,-10.423227 H 2.2967579 v -0.959633 h 0.1588538 z"
+         id="path3801" />
+    </g>
+    <g
+       aria-label="J"
+       id="text13532-6"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 4.3364703,-11.402392 v 0.747394 q 0,0.06771 -0.024739,0.114583 -0.024739,0.04557 -0.066406,0.07422 -0.041667,0.02734 -0.096354,0.03906 -0.053385,0.01042 -0.1106769,0.01042 -0.028646,0 -0.067708,-0.0065 -0.03776,-0.0052 -0.079427,-0.01693 -0.040365,-0.01302 -0.078125,-0.02865 -0.03776,-0.01563 -0.063802,-0.03516 l 0.066406,-0.105469 q 0.013021,0.0091 0.036458,0.01953 0.024739,0.0091 0.053385,0.01823 0.028646,0.0078 0.059896,0.01432 0.03125,0.0065 0.058594,0.0065 0.06901,0 0.1093747,-0.02604 0.041667,-0.02734 0.044271,-0.09114 v -0.734374 z"
+         id="path3804" />
+    </g>
+    <g
+       aria-label="F"
+       id="text13536-9"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 5.4093898,-11.38286 h 0.1588538 v 0.959633 H 5.4093898 Z m 0.5598945,0.527342 H 5.6216289 v -0.10677 h 0.3476554 z m 0.040364,-0.527342 v 0.118489 H 5.6216289 v -0.118489 z"
+         id="path3807" />
+    </g>
+    <g
+       aria-label="W"
+       id="text13540-1"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 7.104702,-10.554737 0.1822912,-0.828123 h 0.061198 v 0.347655 l -0.1419267,0.617186 H 7.0018377 l -0.243489,-0.964841 h 0.1770829 z m 0.7122378,-0.828123 h 0.1770829 l -0.2591139,0.964841 H 7.5317843 l -0.130208,-0.592446 v -0.372395 h 0.0625 l 0.1692705,0.828123 z"
+         id="path3810" />
+    </g>
+    <g
+       aria-label="V"
+       id="text13544-1"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 8.6359527,-11.38286 h 0.178385 l 0.2018224,0.752602 v 0.212239 H 8.934129 Z m 0.6367172,0 h 0.1770829 l -0.3124993,0.964841 h -0.067708 v -0.253906 z"
+         id="path3813" />
+    </g>
+    <g
+       aria-label="O"
+       id="text13548-0"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 10.309779,-10.907601 q 0,-0.115885 0.02734,-0.204427 0.02864,-0.08984 0.07812,-0.151041 0.05078,-0.0625 0.11849,-0.09505 0.06901,-0.03385 0.149739,-0.03906 v 0.130208 q -0.04427,0.0052 -0.08333,0.02734 -0.03906,0.02214 -0.06771,0.0651 -0.02865,0.04297 -0.04557,0.109375 -0.01693,0.06641 -0.01823,0.157552 0.0013,0.09245 0.01823,0.158854 0.01693,0.0651 0.04557,0.109374 0.02995,0.04427 0.06901,0.06771 0.03906,0.02214 0.08203,0.02604 v 0.128906 q -0.07943,-0.0052 -0.148437,-0.03776 -0.06901,-0.03385 -0.119792,-0.09505 -0.04948,-0.0625 -0.07812,-0.152343 -0.02734,-0.08984 -0.02734,-0.205729 z m 0.42578,-0.489582 q 0.07943,0.0039 0.147135,0.03776 0.06901,0.03385 0.118489,0.09635 0.05078,0.0612 0.07943,0.151041 0.02865,0.08854 0.02865,0.204427 0,0.115885 -0.02865,0.205729 -0.02865,0.08984 -0.07943,0.152343 -0.04948,0.0612 -0.117187,0.09505 -0.06771,0.03255 -0.148437,0.03776 v -0.128906 q 0.04427,-0.0052 0.08333,-0.02734 0.03906,-0.02344 0.06771,-0.06641 0.02865,-0.04427 0.04557,-0.109374 0.01693,-0.06641 0.01823,-0.158854 -0.0013,-0.09245 -0.01823,-0.157552 -0.01693,-0.06641 -0.04687,-0.109375 -0.02865,-0.04427 -0.06771,-0.06641 -0.03906,-0.02344 -0.08203,-0.02734 z"
+         id="path3816" />
+    </g>
+    <g
+       aria-label="O"
+       id="text13552-4"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 11.976446,-10.907601 q 0,-0.115885 0.02734,-0.204427 0.02864,-0.08984 0.07812,-0.151041 0.05078,-0.0625 0.11849,-0.09505 0.06901,-0.03385 0.149739,-0.03906 v 0.130208 q -0.04427,0.0052 -0.08333,0.02734 -0.03906,0.02214 -0.06771,0.0651 -0.02865,0.04297 -0.04557,0.109375 -0.01693,0.06641 -0.01823,0.157552 0.0013,0.09245 0.01823,0.158854 0.01693,0.0651 0.04557,0.109374 0.02995,0.04427 0.06901,0.06771 0.03906,0.02214 0.08203,0.02604 v 0.128906 q -0.07943,-0.0052 -0.148437,-0.03776 -0.06901,-0.03385 -0.119792,-0.09505 -0.04948,-0.0625 -0.07812,-0.152343 -0.02734,-0.08984 -0.02734,-0.205729 z m 0.42578,-0.489582 q 0.07943,0.0039 0.147135,0.03776 0.06901,0.03385 0.118489,0.09635 0.05078,0.0612 0.07943,0.151041 0.02865,0.08854 0.02865,0.204427 0,0.115885 -0.02865,0.205729 -0.02865,0.08984 -0.07943,0.152343 -0.04948,0.0612 -0.117187,0.09505 -0.06771,0.03255 -0.148437,0.03776 v -0.128906 q 0.04427,-0.0052 0.08333,-0.02734 0.03906,-0.02344 0.06771,-0.06641 0.02865,-0.04427 0.04557,-0.109374 0.01693,-0.06641 0.01823,-0.158854 -0.0013,-0.09245 -0.01823,-0.157552 -0.01693,-0.06641 -0.04687,-0.109375 -0.02864,-0.04427 -0.06771,-0.06641 -0.03906,-0.02344 -0.08203,-0.02734 z"
+         id="path3819" />
+    </g>
+    <g
+       aria-label="R"
+       id="text13556-9"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 13.717331,-11.38286 h 0.156249 v 0.959633 h -0.156249 z m 0.65104,0.959633 h -0.165364 l -0.18099,-0.347656 q -0.0039,0 -0.0091,0.0013 -0.0039,0 -0.01302,0 -0.0091,0 -0.02734,0 -0.01693,0 -0.04557,0 v -0.114583 h 0.08854 q 0.02865,0 0.05729,-0.0091 0.02865,-0.01042 0.05208,-0.03255 0.02344,-0.02214 0.03776,-0.0612 0.01432,-0.04036 0.01432,-0.09896 0,-0.02344 -0.0065,-0.05339 -0.0065,-0.03125 -0.02734,-0.05859 -0.01953,-0.02865 -0.05599,-0.04687 -0.03646,-0.01953 -0.09635,-0.01953 h -0.0638 v -0.118489 h 0.06641 q 0.0612,0 0.121093,0.01953 0.0599,0.01953 0.106771,0.05859 0.04818,0.03906 0.07682,0.09505 0.02995,0.05469 0.02995,0.123698 0,0.104166 -0.04818,0.177083 -0.04818,0.07292 -0.130208,0.108072 z"
+         id="path3822" />
+    </g>
+    <g
+       aria-label="O"
+       id="text13524-5-6"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 0.30977954,-9.2409341 q 0,-0.1158852 0.0273437,-0.2044266 0.0286458,-0.089844 0.0781248,-0.1510413 0.0507811,-0.0625 0.11848929,-0.095052 0.0690103,-0.033854 0.14973921,-0.039062 v 0.130208 q -0.0442707,0.00521 -0.0833331,0.027344 -0.0390624,0.022135 -0.0677082,0.065104 -0.0286458,0.042969 -0.0455728,0.1093748 -0.016927,0.066406 -0.0182291,0.1575517 0.001302,0.092448 0.0182291,0.1588537 0.016927,0.065104 0.0455728,0.1093748 0.0299478,0.044271 0.0690103,0.067708 0.0390624,0.022135 0.082031,0.026042 v 0.128906 q -0.0794269,-0.00521 -0.14843713,-0.03776 -0.0690103,-0.033854 -0.11979137,-0.095052 -0.049479,-0.0625 -0.0781248,-0.1523434 -0.0273437,-0.089844 -0.0273437,-0.2057286 z m 0.4257802,-0.4895821 q 0.0794269,0.00391 0.14713505,0.03776 0.0690103,0.033854 0.11848931,0.096354 0.050781,0.061198 0.079427,0.1510413 0.028646,0.088541 0.028646,0.2044266 0,0.1158851 -0.028646,0.2057286 -0.028646,0.089844 -0.079427,0.1523434 -0.0494791,0.061198 -0.11718723,0.095052 -0.0677082,0.032552 -0.14843713,0.03776 v -0.128906 q 0.0442707,-0.00521 0.0833331,-0.027344 0.0390624,-0.023437 0.0677082,-0.066406 0.0286458,-0.044271 0.0455728,-0.1093748 0.0169271,-0.066406 0.0182291,-0.1588537 -0.001302,-0.092448 -0.0182291,-0.1575517 -0.016927,-0.066406 -0.0468749,-0.1093748 -0.0286458,-0.044271 -0.0677082,-0.066406 -0.0390624,-0.023437 -0.082031,-0.027344 z"
+         id="path3825" />
+    </g>
+    <g
+       aria-label="V"
+       id="text13528-8-4"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 1.9692847,-9.7161934 h 0.178385 l 0.2018224,0.7526023 v 0.2122391 h -0.082031 z m 0.6367172,0 H 2.7830848 L 2.4705856,-8.751352 h -0.067708 v -0.2539056 z"
+         id="path3828" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13532-6-5"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 3.7427218,-9.7161934 h 0.1588538 v 0.9596331 H 3.7427218 Z m 0.5598944,0.5273425 H 3.9549608 v -0.1067706 h 0.3476554 z m -0.3476554,0.3138013 h 0.3880199 v 0.1184893 H 3.9549608 Z m 0.3880199,-0.8411438 v 0.1184893 H 3.9549608 v -0.1184893 z"
+         id="path3831" />
+    </g>
+    <g
+       aria-label="R"
+       id="text13536-9-8"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 5.3839992,-9.7161934 h 0.1562496 v 0.9596331 H 5.3839992 Z m 0.65104,0.9596331 H 5.869675 L 5.6886859,-9.1042157 q -0.00391,0 -0.00911,0.0013 -0.00391,0 -0.013021,0 -0.00911,0 -0.027344,0 -0.016927,0 -0.045573,0 v -0.1145831 h 0.088541 q 0.028646,0 0.057292,-0.00911 0.028646,-0.010417 0.052083,-0.032552 0.023437,-0.022135 0.03776,-0.061198 0.014323,-0.040364 0.014323,-0.098958 0,-0.023437 -0.00651,-0.053385 -0.00651,-0.03125 -0.027344,-0.058594 -0.019531,-0.028646 -0.055989,-0.046875 -0.036458,-0.019531 -0.096354,-0.019531 h -0.063802 v -0.1184893 h 0.066406 q 0.061198,0 0.1210934,0.019531 0.059896,0.019531 0.1067706,0.058594 0.048177,0.039062 0.076823,0.095052 0.029948,0.054687 0.029948,0.1236976 0,0.1041664 -0.048177,0.1770829 -0.048177,0.072916 -0.130208,0.1080726 z"
+         id="path3834" />
+    </g>
+    <g
+       aria-label="I"
+       id="text13540-1-3"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 7.4556126,-8.7565603 H 7.2967588 v -0.9596331 h 0.1588538 z"
+         id="path3837" />
+    </g>
+    <g
+       aria-label="H"
+       id="text13544-1-6"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 9.4080859,-9.7161934 v 0.9596331 H 9.2518363 V -9.1888509 H 8.889858 v -0.1067706 h 0.3619783 v -0.4205719 z m -0.730467,0 h 0.1588538 v 0.9596331 H 8.6776189 Z"
+         id="path3840" />
+    </g>
+    <g
+       aria-label="A"
+       id="text13548-0-6"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 11.121626,-8.7565603 h -0.161458 l -0.248697,-0.7187482 -0.251302,0.7187482 h -0.16276 l 0.335937,-0.958331 h 0.154947 z m -0.324218,-0.3046868 0.03776,0.1054685 h -0.248697 l 0.03646,-0.1054685 z"
+         id="path3843" />
+    </g>
+    <g
+       aria-label="L"
+       id="text13552-4-1"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 12.234908,-9.7161934 v 0.8411438 h 0.441405 v 0.1184893 h -0.600259 v -0.9596331 z"
+         id="path3846" />
+    </g>
+    <g
+       aria-label="F"
+       id="text13556-9-4"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 13.742721,-9.7161934 h 0.158854 v 0.9596331 h -0.158854 z m 0.559894,0.5273425 H 13.95496 v -0.1067706 h 0.347655 z m 0.04037,-0.5273425 v 0.1184893 h -0.38802 v -0.1184893 z"
+         id="path3849" />
+    </g>
+    <g
+       aria-label="A"
+       id="text13524-5-6-0"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 1.1216265,-7.0905447 H 0.96016856 L 0.71147125,-7.8092929 0.46016979,-7.0905447 H 0.29740978 l 0.33593667,-0.958331 H 0.78829398 Z M 0.79740854,-7.3952314 0.83516887,-7.289763 H 0.58647156 l 0.0364583,-0.1054684 z"
+         id="path3852" />
+    </g>
+    <g
+       aria-label="C"
+       id="text13528-8-4-8"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 2.6014446,-7.8652824 q -0.029948,-0.033854 -0.063802,-0.050781 -0.033854,-0.016927 -0.072917,-0.019531 v -0.1289059 q 0.145833,0.00651 0.2447911,0.1028643 z m -0.1367184,0.6523422 q 0.039062,-0.00391 0.072917,-0.020833 0.035156,-0.016927 0.063802,-0.049479 l 0.1080727,0.095052 q -0.049479,0.048177 -0.1106768,0.074219 -0.061198,0.026042 -0.1341143,0.029948 z M 2.0428523,-7.5749185 q 0,-0.1158851 0.027344,-0.2044266 0.028646,-0.088541 0.078125,-0.1497392 0.049479,-0.061198 0.1158851,-0.095052 0.067708,-0.033854 0.147135,-0.040365 v 0.130208 q -0.042969,0.00651 -0.080729,0.029948 -0.03776,0.022135 -0.066406,0.065104 -0.028646,0.042969 -0.045573,0.1093748 -0.015625,0.065104 -0.016927,0.1549475 0.0013,0.091146 0.016927,0.1562496 0.016927,0.065104 0.045573,0.1093747 0.028646,0.044271 0.066406,0.067708 0.039062,0.023437 0.080729,0.028646 v 0.1276038 q -0.079427,-0.00521 -0.147135,-0.039062 -0.066406,-0.033854 -0.1158851,-0.095052 -0.049479,-0.061198 -0.078125,-0.1497392 -0.027344,-0.089844 -0.027344,-0.2057287 z"
+         id="path3855" />
+    </g>
+    <g
+       aria-label="H"
+       id="text13532-6-5-5"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 4.4080849,-8.0501777 v 0.959633 H 4.2518353 V -7.5228353 H 3.889857 v -0.1067706 h 0.3619783 v -0.4205718 z m -0.7304669,0 h 0.1588538 v 0.959633 H 3.677618 Z"
+         id="path3858" />
+    </g>
+    <g
+       aria-label="T"
+       id="text13536-9-8-5"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 6.0747529,-8.0501777 v 0.1067705 H 5.7882952 v 0.8528625 H 5.6307435 V -7.9434072 H 5.3442859 v -0.1067705 z"
+         id="path3861" />
+    </g>
+    <g
+       aria-label="F"
+       id="text13540-1-3-2"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 7.0760563,-8.0501777 h 0.1588538 v 0.959633 H 7.0760563 Z m 0.5598945,0.5273424 H 7.2882954 v -0.1067706 h 0.3476554 z m 0.040364,-0.5273424 v 0.1184892 H 7.2882954 v -0.1184892 z"
+         id="path3864" />
+    </g>
+    <g
+       aria-label="T"
+       id="text13544-1-6-3"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 9.4080859,-8.0501777 v 0.1067705 H 9.1216282 v 0.8528625 H 8.9640766 V -7.9434072 H 8.6776189 v -0.1067705 z"
+         id="path3867" />
+    </g>
+    <g
+       aria-label="W"
+       id="text13548-0-6-7"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 10.438034,-7.2220548 0.182291,-0.8281229 h 0.0612 v 0.3476553 l -0.141927,0.617186 H 10.33517 l -0.243489,-0.9648413 h 0.177083 z m 0.712238,-0.8281229 h 0.177083 l -0.259114,0.9648413 h -0.203125 l -0.130208,-0.5924464 v -0.3723949 h 0.0625 l 0.169271,0.8281229 z"
+         id="path3870" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13552-4-1-9"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 12.076054,-8.0501777 h 0.158854 v 0.959633 h -0.158854 z m 0.559895,0.5273424 h -0.347656 v -0.1067706 h 0.347656 z m -0.347656,0.3138013 h 0.38802 v 0.1184893 h -0.38802 z m 0.38802,-0.8411437 v 0.1184892 h -0.38802 v -0.1184892 z"
+         id="path3873" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13556-9-4-3"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 13.742721,-8.0501777 h 0.158854 v 0.959633 h -0.158854 z m 0.559895,0.5273424 H 13.95496 v -0.1067706 h 0.347656 z M 13.95496,-7.209034 h 0.38802 v 0.1184893 h -0.38802 z m 0.38802,-0.8411437 v 0.1184892 h -0.38802 v -0.1184892 z"
+         id="path3876" />
+    </g>
+    <g
+       aria-label="V"
+       id="text13524-5-6-3"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 0.30261806,-6.3828604 h 0.17838497 l 0.20182242,0.7526024 v 0.212239 H 0.6007944 Z m 0.63671717,0 H 1.1164181 L 0.8039189,-5.418019 h -0.0677082 v -0.2539056 z"
+         id="path3879" />
+    </g>
+    <g
+       aria-label="I"
+       id="text13528-8-4-5"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 2.4556117,-5.4232273 H 2.2967579 v -0.9596331 h 0.1588538 z"
+         id="path3882" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13532-6-5-9"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 3.7427218,-6.3828604 h 0.1588538 v 0.9596331 H 3.7427218 Z m 0.5598944,0.5273425 H 3.9549608 v -0.1067706 h 0.3476554 z m -0.3476554,0.3138013 h 0.3880199 v 0.1184893 H 3.9549608 Z m 0.3880199,-0.8411438 v 0.1184893 H 3.9549608 v -0.1184893 z"
+         id="path3885" />
+    </g>
+    <g
+       aria-label="R"
+       id="text13536-9-8-0"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 5.3839992,-6.3828604 h 0.1562496 v 0.9596331 H 5.3839992 Z m 0.65104,0.9596331 H 5.869675 L 5.6886859,-5.7708827 q -0.00391,0 -0.00911,0.0013 -0.00391,0 -0.013021,0 -0.00911,0 -0.027344,0 -0.016927,0 -0.045573,0 v -0.1145831 h 0.088541 q 0.028646,0 0.057292,-0.00911 0.028646,-0.010417 0.052083,-0.032552 0.023437,-0.022135 0.03776,-0.061198 0.014323,-0.040365 0.014323,-0.098958 0,-0.023437 -0.00651,-0.053385 -0.00651,-0.03125 -0.027344,-0.058594 -0.019531,-0.028646 -0.055989,-0.046875 -0.036458,-0.019531 -0.096354,-0.019531 h -0.063802 v -0.1184893 h 0.066406 q 0.061198,0 0.1210934,0.019531 0.059896,0.019531 0.1067706,0.058594 0.048177,0.039062 0.076823,0.095052 0.029948,0.054687 0.029948,0.1236976 0,0.1041664 -0.048177,0.1770829 -0.048177,0.072916 -0.130208,0.1080727 z"
+         id="path3888" />
+    </g>
+    <g
+       aria-label="I"
+       id="text13540-1-3-23"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 7.4556126,-5.4232273 H 7.2967588 v -0.9596331 h 0.1588538 z"
+         id="path3891" />
+    </g>
+    <g
+       aria-label="V"
+       id="text13544-1-6-7"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 8.6359527,-6.3828604 h 0.178385 l 0.2018224,0.7526024 v 0.212239 H 8.934129 Z m 0.6367172,0 H 9.4497528 L 9.1372535,-5.418019 h -0.067708 v -0.2539056 z"
+         id="path3894" />
+    </g>
+    <g
+       aria-label="I"
+       id="text13548-0-6-0"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 10.788945,-5.4232273 h -0.158854 v -0.9596331 h 0.158854 z"
+         id="path3897" />
+    </g>
+    <g
+       aria-label="J"
+       id="text13552-4-1-0"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 12.669803,-6.4023916 v 0.747394 q 0,0.067708 -0.02474,0.1145831 -0.02474,0.045573 -0.06641,0.074218 -0.04167,0.027344 -0.09635,0.039062 -0.05339,0.010417 -0.110677,0.010417 -0.02865,0 -0.06771,-0.00651 -0.03776,-0.00521 -0.07943,-0.016927 -0.04036,-0.013021 -0.07813,-0.028646 -0.03776,-0.015625 -0.0638,-0.035156 l 0.06641,-0.1054685 q 0.01302,0.00911 0.03646,0.019531 0.02474,0.00911 0.05339,0.018229 0.02865,0.00781 0.05989,0.014323 0.03125,0.00651 0.05859,0.00651 0.06901,0 0.109375,-0.026042 0.04167,-0.027344 0.04427,-0.091146 v -0.7343732 z"
+         id="path3900" />
+    </g>
+    <g
+       aria-label="F"
+       id="text13556-9-4-0"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 13.742721,-6.3828604 h 0.158854 v 0.9596331 h -0.158854 z m 0.559894,0.5273425 H 13.95496 v -0.1067706 h 0.347655 z m 0.04037,-0.5273425 v 0.1184893 h -0.38802 v -0.1184893 z"
+         id="path3903" />
+    </g>
+    <g
+       aria-label="D"
+       id="text13524-5-6-38"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 0.32214929,-4.7161936 h 0.15624962 v 0.959633 H 0.32214929 Z m 0.28906179,0 q 0.12109345,0 0.21223906,0.039062 0.0924477,0.03776 0.15234337,0.1015622 0.0611978,0.063802 0.0911456,0.145833 0.029948,0.080729 0.029948,0.1666663 0,0.1184893 -0.026042,0.2031245 -0.02474,0.083333 -0.063802,0.1406246 -0.0390624,0.055989 -0.0885414,0.088541 -0.048177,0.032552 -0.0937498,0.049479 -0.0455728,0.015625 -0.0833331,0.020833 -0.0377603,0.00391 -0.0559894,0.00391 H 0.53178419 v -0.114583 h 0.10156225 q 0.15885377,0 0.2291661,-0.1015623 0.0703123,-0.1015622 0.0703123,-0.2942701 0,-0.059896 -0.0143229,-0.1184893 -0.0143229,-0.058594 -0.0559895,-0.1054684 -0.0403645,-0.048177 -0.11067681,-0.076823 -0.0703123,-0.029948 -0.18229122,-0.029948 h -0.0377603 v -0.1184893 z"
+         id="path3906" />
+    </g>
+    <g
+       aria-label="R"
+       id="text13528-8-4-6"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 2.0506647,-4.7161936 h 0.1562496 v 0.959633 H 2.0506647 Z m 0.6510401,0.959633 H 2.5363406 L 2.3553515,-4.104216 q -0.00391,0 -0.00911,0.0013 -0.00391,0 -0.013021,0 -0.00911,0 -0.027344,0 -0.016927,0 -0.045573,0 v -0.114583 h 0.088541 q 0.028646,0 0.057291,-0.00911 0.028646,-0.010417 0.052083,-0.032552 0.023437,-0.022135 0.03776,-0.061198 0.014323,-0.040364 0.014323,-0.098958 0,-0.023437 -0.00651,-0.053385 -0.00651,-0.03125 -0.027344,-0.058594 -0.019531,-0.028646 -0.055989,-0.046875 -0.036458,-0.019531 -0.096354,-0.019531 h -0.063802 v -0.1184893 h 0.066406 q 0.061198,0 0.1210935,0.019531 0.059896,0.019531 0.1067705,0.058594 0.048177,0.039062 0.076823,0.095052 0.029948,0.054687 0.029948,0.1236977 0,0.1041664 -0.048177,0.1770829 -0.048177,0.072916 -0.130208,0.1080726 z"
+         id="path3909" />
+    </g>
+    <g
+       aria-label="I"
+       id="text13532-6-5-4"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 4.1222782,-3.7565606 H 3.9634244 v -0.959633 h 0.1588538 z"
+         id="path3912" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13536-9-8-9"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 5.4093897,-4.7161936 h 0.1588538 v 0.959633 H 5.4093897 Z m 0.5598945,0.5273424 H 5.6216288 v -0.1067705 h 0.3476554 z m -0.3476554,0.3138013 h 0.3880199 v 0.1184893 H 5.6216288 Z m 0.3880199,-0.8411437 v 0.1184893 H 5.6216288 v -0.1184893 z"
+         id="path3915" />
+    </g>
+    <g
+       aria-label="L"
+       id="text13540-1-3-4"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 7.2349101,-4.7161936 v 0.8411437 h 0.4414052 v 0.1184893 h -0.600259 v -0.959633 z"
+         id="path3918" />
+    </g>
+    <g
+       aria-label="F"
+       id="text13544-1-6-2"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 8.7427228,-4.7161936 h 0.1588538 v 0.959633 H 8.7427228 Z m 0.5598945,0.5273424 H 8.9549619 v -0.1067705 h 0.3476554 z m 0.040365,-0.5273424 v 0.1184893 H 8.9549619 v -0.1184893 z"
+         id="path3921" />
+    </g>
+    <g
+       aria-label="Z"
+       id="text13548-0-6-09"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 11.028528,-4.7161936 v 0.1263018 l -0.45703,0.6861962 -0.02604,0.020833 h 0.483072 v 0.1263017 h -0.63802 v -0.1263017 l 0.457031,-0.6861963 0.02734,-0.020833 h -0.484374 v -0.1263018 z"
+         id="path3924" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13552-4-1-00"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 12.076054,-4.7161936 h 0.158854 v 0.959633 h -0.158854 z m 0.559895,0.5273424 h -0.347656 v -0.1067705 h 0.347656 z m -0.347656,0.3138013 h 0.38802 v 0.1184893 h -0.38802 z m 0.38802,-0.8411437 v 0.1184893 h -0.38802 v -0.1184893 z"
+         id="path3927" />
+    </g>
+    <g
+       aria-label="S"
+       id="text13556-9-4-1"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 14.219932,-4.5677565 q -0.0065,-0.0026 -0.01563,-0.00911 -0.0091,-0.00651 -0.02604,-0.011719 -0.01693,-0.00651 -0.04297,-0.010417 -0.02604,-0.00391 -0.06641,-0.0013 v -0.1315101 q 0.05729,0.0013 0.115885,0.013021 0.0599,0.010417 0.09635,0.033854 -0.0078,0.016927 -0.01823,0.03776 -0.01042,0.019531 -0.01953,0.03776 -0.0091,0.016927 -0.01563,0.028646 -0.0065,0.011719 -0.0078,0.013021 z m -0.449217,0.1041664 q 0,-0.057291 0.01953,-0.1028643 0.01953,-0.045573 0.05208,-0.079427 0.03385,-0.035156 0.07813,-0.054687 0.04557,-0.020833 0.09505,-0.027344 v 0.1367184 q -0.04167,0.014323 -0.06901,0.050781 -0.02734,0.035156 -0.02734,0.071614 0,0.050781 0.02734,0.082031 0.02734,0.03125 0.06901,0.054687 v 0.1484372 q -0.04297,-0.020833 -0.08594,-0.044271 -0.04297,-0.024739 -0.07812,-0.057291 -0.03516,-0.032552 -0.05859,-0.075521 -0.02214,-0.042969 -0.02214,-0.1028644 z m 0.02083,0.5312487 q 0.01823,0.010417 0.04557,0.020833 0.02865,0.00911 0.05859,0.018229 0.02995,0.00781 0.0599,0.013021 0.02995,0.00521 0.05599,0.00521 h 0.0039 v 0.1236977 h -0.0026 q -0.03125,0 -0.0651,-0.00391 -0.03255,-0.0026 -0.06641,-0.010417 -0.03385,-0.00781 -0.0651,-0.020833 -0.02995,-0.014323 -0.05208,-0.033854 z m 0.277343,-0.373697 q 0.04297,0.019531 0.08724,0.041667 0.04557,0.022135 0.08203,0.054687 0.03646,0.03125 0.0599,0.076823 0.02344,0.045573 0.02344,0.113281 0,0.046875 -0.01823,0.091146 -0.01693,0.044271 -0.04948,0.080729 -0.03125,0.035156 -0.07812,0.059896 -0.04687,0.024739 -0.106771,0.032552 v -0.1249997 q 0.106771,-0.026042 0.106771,-0.1419267 0,-0.045573 -0.02995,-0.075521 -0.02995,-0.029948 -0.07682,-0.055989 z"
+         id="path3930" />
+    </g>
+    <g
+       aria-label="T"
+       id="text13524-5-6-8"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 1.0747516,-3.0495266 v 0.1067705 H 0.78829398 v 0.8528625 H 0.63074229 V -2.9427561 H 0.34428466 v -0.1067705 z"
+         id="path3933" />
+    </g>
+    <g
+       aria-label="W"
+       id="text13528-8-4-9"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 2.1047011,-2.2214037 0.1822912,-0.8281229 h 0.061198 v 0.3476554 L 2.2062633,-2.0846853 H 2.0018367 L 1.7583478,-3.0495266 h 0.1770829 z m 0.7122378,-0.8281229 h 0.1770829 l -0.259114,0.9648413 H 2.5317834 L 2.4015753,-2.6771317 v -0.3723949 h 0.0625 l 0.1692704,0.8281229 z"
+         id="path3936" />
+    </g>
+    <g
+       aria-label="A"
+       id="text13532-6-5-6"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 4.4549598,-2.0898936 H 4.2935019 L 4.0448046,-2.8086418 3.7935031,-2.0898936 h -0.16276 l 0.3359367,-0.9583309 h 0.1549475 z m -0.3242179,-0.3046867 0.03776,0.1054685 H 3.9198049 l 0.036458,-0.1054685 z"
+         id="path3939" />
+    </g>
+    <g
+       aria-label="A"
+       id="text13536-9-8-4"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 6.1216277,-2.0898936 H 5.9601698 L 5.7114725,-2.8086418 5.460171,-2.0898936 h -0.16276 l 0.3359367,-0.9583309 h 0.1549475 z m -0.3242179,-0.3046867 0.03776,0.1054685 H 5.5864728 l 0.036458,-0.1054685 z"
+         id="path3942" />
+    </g>
+    <g
+       aria-label="L"
+       id="text13540-1-3-6"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 7.2349101,-3.0495266 v 0.8411437 h 0.4414052 v 0.1184893 h -0.600259 v -0.959633 z"
+         id="path3945" />
+    </g>
+    <g
+       aria-label="F"
+       id="text13544-1-6-4"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 8.7427228,-3.0495266 h 0.1588538 v 0.959633 H 8.7427228 Z m 0.5598945,0.5273424 H 8.9549619 v -0.1067705 h 0.3476554 z m 0.040365,-0.5273424 v 0.1184893 H 8.9549619 v -0.1184893 z"
+         id="path3948" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13548-0-6-1"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 10.409388,-3.0495266 h 0.158854 v 0.959633 h -0.158854 z m 0.559895,0.5273424 h -0.347656 v -0.1067705 h 0.347656 z m -0.347656,0.3138013 h 0.38802 v 0.1184893 h -0.38802 z m 0.38802,-0.8411437 v 0.1184893 h -0.38802 v -0.1184893 z"
+         id="path3951" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13552-4-1-3"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 12.076054,-3.0495266 h 0.158854 v 0.959633 h -0.158854 z m 0.559895,0.5273424 h -0.347656 v -0.1067705 h 0.347656 z m -0.347656,0.3138013 h 0.38802 v 0.1184893 h -0.38802 z m 0.38802,-0.8411437 v 0.1184893 h -0.38802 v -0.1184893 z"
+         id="path3954" />
+    </g>
+    <g
+       aria-label="N"
+       id="text13556-9-4-15"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 14.231002,-3.0495266 h 0.158853 v 0.959633 h -0.158853 l -0.322916,-0.5677069 v -0.2994784 l 0.322916,0.569009 z m -0.535155,0.959633 v -0.959633 h 0.158854 v 0.959633 z"
+         id="path3957" />
+    </g>
+    <g
+       aria-label="Z"
+       id="text13524-5-6-4"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 1.0285277,-1.3828605 v 0.1263017 l -0.45703008,0.68619626 -0.0260416,0.0208333 H 1.0285277 v 0.12630177 H 0.39050849 v -0.12630177 l 0.45703012,-0.68619624 0.0273437,-0.020833 h -0.4843738 v -0.1263017 z"
+         id="path3960" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13528-8-4-3"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 2.0760553,-1.3828605 h 0.1588538 v 0.95963301 H 2.0760553 Z m 0.5598944,0.52734241 H 2.2882943 v -0.10677057 h 0.3476554 z m -0.3476554,0.31380131 h 0.3880199 v 0.11848929 H 2.2882943 Z M 2.6763142,-1.3828605 v 0.1184893 H 2.2882943 v -0.1184893 z"
+         id="path3963" />
+    </g>
+    <g
+       aria-label="V"
+       id="text13532-6-5-2"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 3.6359513,-1.3828605 h 0.1783849 l 0.2018224,0.75260227 v 0.21223906 h -0.082031 z m 0.6367171,0 h 0.1770829 l -0.3124992,0.96484133 h -0.067708 v -0.25390562 z"
+         id="path3966" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13536-9-8-8"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 5.4093897,-1.3828605 h 0.1588538 v 0.95963301 H 5.4093897 Z m 0.5598945,0.52734241 H 5.6216288 v -0.10677057 h 0.3476554 z m -0.3476554,0.31380131 h 0.3880199 v 0.11848929 H 5.6216288 Z M 6.0096487,-1.3828605 v 0.1184893 H 5.6216288 v -0.1184893 z"
+         id="path3969" />
+    </g>
+    <g
+       aria-label="N"
+       id="text13540-1-3-8"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 7.5643362,-1.3828605 h 0.1588537 v 0.95963301 H 7.5643362 L 7.2414203,-0.99093442 V -1.2904128 l 0.3229159,0.56900897 z m -0.535155,0.95963301 V -1.3828605 H 7.188035 v 0.95963301 z"
+         id="path3972" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13544-1-6-45"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 8.7427232,-1.3828605 H 8.901577 v 0.95963301 H 8.7427232 Z m 0.5598945,0.52734241 H 8.9549623 v -0.10677057 h 0.3476554 z m -0.3476554,0.31380131 h 0.3880198 v 0.11848929 H 8.9549623 Z M 9.3429821,-1.3828605 v 0.1184893 H 8.9549623 v -0.1184893 z"
+         id="path3975" />
+    </g>
+    <g
+       aria-label="G"
+       id="text13548-0-6-10"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 10.910038,-1.1979652 q -0.03125,-0.03776 -0.07161,-0.054687 -0.04036,-0.016927 -0.08333,-0.016927 h -0.0052 v -0.1289059 h 0.0013 q 0.07812,0 0.145833,0.026042 0.06771,0.026042 0.121093,0.078125 z m -0.558592,0.29036391 q 0,-0.11197891 0.02604,-0.19791621 0.02604,-0.087239 0.07161,-0.147135 0.04557,-0.061198 0.109375,-0.096354 0.0638,-0.035156 0.13802,-0.044271 v 0.130208 q -0.03906,0.010417 -0.07292,0.035156 -0.03255,0.02474 -0.05859,0.06901 -0.02474,0.042969 -0.03906,0.1054685 -0.01432,0.0611978 -0.01563,0.14583301 0.0013,0.0846352 0.01563,0.14843713 0.01432,0.0638019 0.03906,0.11067681 0.02604,0.0455728 0.05859,0.0729165 0.03385,0.0273437 0.07292,0.0377603 v 0.11848929 q -0.07422,-0.009115 -0.13802,-0.0442707 -0.0638,-0.0364582 -0.109375,-0.097656 -0.04557,-0.0611978 -0.07161,-0.14713505 -0.02604,-0.0872394 -0.02604,-0.19921826 z m 0.716144,-0.0104166 v 0.37109283 q -0.02995,0.0377603 -0.06771,0.0624999 -0.03646,0.0234374 -0.07813,0.0390624 -0.04036,0.015625 -0.08463,0.0221354 -0.04297,0.00651 -0.08594,0.00651 h -0.0013 v -0.11458305 q 0.01563,0 0.03776,-0.001302 0.02344,-0.002604 0.04687,-0.00651 0.02474,-0.005208 0.04557,-0.0130208 0.02214,-0.007812 0.03255,-0.0221354 v -0.23697858 h -0.16276 v -0.10677057 z"
+         id="path3978" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13552-4-1-03"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 12.076054,-1.3828605 h 0.158854 v 0.95963301 h -0.158854 z m 0.559895,0.52734241 h -0.347656 v -0.10677057 h 0.347656 z m -0.347656,0.31380131 h 0.38802 v 0.11848929 h -0.38802 z m 0.38802,-0.84114372 v 0.1184893 h -0.38802 v -0.1184893 z"
+         id="path3981" />
+    </g>
+    <g
+       aria-label="N"
+       id="text13556-9-4-02"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 14.231002,-1.3828605 h 0.158853 v 0.95963301 H 14.231002 L 13.908086,-0.99093442 V -1.2904128 l 0.322916,0.56900897 z m -0.535155,0.95963301 V -1.3828605 h 0.158854 v 0.95963301 z"
+         id="path3984" />
+    </g>
+    <g
+       aria-label="T"
+       id="text13524-5-6-7"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 1.0747516,0.28901477 V 0.39578534 H 0.78829398 V 1.2486478 H 0.63074229 V 0.39578534 H 0.34428466 V 0.28901477 Z"
+         id="path3987" />
+    </g>
+    <g
+       aria-label="I"
+       id="text13528-8-4-0"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 2.4556117,1.2486478 H 2.2967579 V 0.28901477 h 0.1588538 z"
+         id="path3990" />
+    </g>
+    <g
+       aria-label="E"
+       id="text13532-6-5-7"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 3.7427218,0.28901477 H 3.9015756 V 1.2486478 H 3.7427218 Z M 4.3026162,0.81635721 H 3.9549608 V 0.70958664 H 4.3026162 Z M 3.9549608,1.1301585 H 4.3429807 V 1.2486478 H 3.9549608 Z M 4.3429807,0.28901477 V 0.40750406 H 3.9549608 V 0.28901477 Z"
+         id="path3993" />
+    </g>
+    <g
+       aria-label="N"
+       id="text13536-9-8-7"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 5.8976696,0.28901477 H 6.0565234 V 1.2486478 H 5.8976696 L 5.5747538,0.68094088 V 0.38146245 L 5.8976696,0.95047146 Z M 5.3625147,1.2486478 V 0.28901477 H 5.5213685 V 1.2486478 Z"
+         id="path3996" />
+    </g>
+    <g
+       aria-label="M"
+       id="text13540-1-3-1"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 6.9328276,0.28901477 H 7.0916814 L 7.3494933,0.88146122 V 1.122346 H 7.3078267 L 7.0916814,0.58849319 V 1.2486478 H 6.9328276 Z m 0.7278628,0 H 7.8195442 V 1.2486478 H 7.6606904 V 0.58849319 L 7.4458472,1.122346 H 7.4028785 V 0.88406538 Z"
+         id="path3999" />
+    </g>
+    <g
+       aria-label="P"
+       id="text13544-1-6-25"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 8.7375152,0.28901477 H 8.8937648 V 1.2486478 H 8.7375152 Z m 0.276041,0 q 0.061198,0 0.1210934,0.0195312 0.059896,0.0195312 0.1067706,0.0585936 0.048177,0.0390624 0.076823,0.0950518 0.029948,0.0546874 0.029948,0.12369761 0,0.0729165 -0.02474,0.13281217 -0.024739,0.0585936 -0.06901,0.0989581 -0.044271,0.0403645 -0.1067706,0.0624998 -0.0625,0.0221354 -0.1380205,0.0221354 h -0.0625 V 0.78771145 h 0.089844 q 0.028646,0 0.055989,-0.009115 0.028646,-0.0104166 0.052083,-0.032552 0.023437,-0.0221354 0.03776,-0.0611978 0.014323,-0.0403645 0.014323,-0.0989581 0,-0.0234374 -0.00651,-0.0533853 -0.00651,-0.0312499 -0.027344,-0.0585936 -0.019531,-0.0286458 -0.05599,-0.0468749 -0.036458,-0.0195312 -0.096354,-0.0195312 H 8.9471501 V 0.28901477 Z"
+         id="path4002" />
+    </g>
+    <g
+       aria-label="U"
+       id="text13548-0-6-5"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 10.495324,0.74864905 q 0,0.10026016 0.01302,0.17057249 0.01302,0.0690103 0.03776,0.11458306 0.02474,0.044271 0.05859,0.066406 0.03516,0.022135 0.07813,0.026042 v 0.1289059 q -0.07943,-0.00521 -0.144531,-0.03776 -0.0638,-0.033854 -0.108073,-0.095052 -0.04427,-0.0625 -0.06901,-0.15234334 -0.02474,-0.0898435 -0.02474,-0.20572865 V 0.28901477 h 0.158853 z m 0.587238,-0.45963428 v 0.47525924 q 0,0.11588513 -0.02474,0.20572865 -0.02474,0.0898435 -0.07031,0.15234334 -0.04427,0.061198 -0.108073,0.095052 -0.0638,0.032552 -0.143229,0.03776 V 1.1262523 q 0.04297,-0.00521 0.07682,-0.026042 0.03516,-0.022135 0.0599,-0.066406 0.02474,-0.0442707 0.03776,-0.11328098 0.01432,-0.0703123 0.01432,-0.17187457 V 0.28901477 Z"
+         id="path4005" />
+    </g>
+    <g
+       aria-label="U"
+       id="text13552-4-1-1"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="m 12.161992,0.74864905 q 0,0.10026016 0.01302,0.17057249 0.01302,0.0690103 0.03776,0.11458306 0.02474,0.044271 0.05859,0.066406 0.03516,0.022135 0.07813,0.026042 v 0.1289059 q -0.07943,-0.00521 -0.144531,-0.03776 -0.0638,-0.033854 -0.108073,-0.095052 -0.04427,-0.0625 -0.06901,-0.15234334 -0.02474,-0.0898435 -0.02474,-0.20572865 V 0.28901477 h 0.158853 z M 12.74923,0.28901477 v 0.47525924 q 0,0.11588513 -0.02474,0.20572865 -0.02474,0.0898435 -0.07031,0.15234334 -0.04427,0.061198 -0.108073,0.095052 -0.0638,0.032552 -0.143229,0.03776 V 1.1262523 q 0.04297,-0.00521 0.07682,-0.026042 0.03516,-0.022135 0.0599,-0.066406 0.02474,-0.0442707 0.03776,-0.11328098 0.01432,-0.0703123 0.01432,-0.17187457 V 0.28901477 Z"
+         id="path4008" />
+    </g>
+    <g
+       aria-label="R"
+       id="text13556-9-4-4"
+       style="font-size:1.33333px;font-family:'Allerta Stencil';-inkscape-font-specification:'Allerta Stencil';text-align:center;text-anchor:middle;display:inline;stroke:#000000;stroke-width:0">
+      <path
+         d="M 13.717331,0.28901477 H 13.87358 V 1.2486478 h -0.156249 z m 0.65104,0.95963303 h -0.165364 l -0.18099,-0.34765538 q -0.0039,0 -0.0091,0.001302 -0.0039,0 -0.01302,0 -0.0091,0 -0.02734,0 -0.01693,0 -0.04557,0 V 0.78771145 h 0.08854 q 0.02865,0 0.05729,-0.009115 0.02865,-0.0104166 0.05208,-0.032552 0.02344,-0.0221354 0.03776,-0.0611978 0.01432,-0.0403645 0.01432,-0.0989581 0,-0.0234374 -0.0065,-0.0533853 -0.0065,-0.0312499 -0.02734,-0.0585936 -0.01953,-0.0286458 -0.05599,-0.0468749 -0.03646,-0.0195312 -0.09635,-0.0195312 h -0.0638 V 0.28901477 h 0.06641 q 0.0612,0 0.121093,0.0195312 0.0599,0.0195312 0.106771,0.0585936 0.04818,0.0390624 0.07682,0.0950518 0.02995,0.0546874 0.02995,0.12369761 0,0.10416641 -0.04818,0.1770829 -0.04818,0.0729165 -0.130208,0.10807265 z"
+         id="path4011" />
+    </g>
+  </g>
+</svg>
