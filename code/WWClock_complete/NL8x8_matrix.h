@@ -1,4 +1,44 @@
 //NETHERLANDS 8x8
+#define CLOCK_LANG "NL"
+
+//Url to retrieve time. Set correct timezone: http://worldtimeapi.org/timezones
+#define TIME_URL "http://worldtimeapi.org/api/timezone/Europe/Amsterdam"
+
+//set correct type of ledstrip. Ref: https://github.com/adafruit/Adafruit_NeoPixel
+#define STRIP_TYPE NEO_GRB
+
+//set true if ledstrip is rgbw ledstrip
+const bool rgbw = false;
+
+//set output pin for led data
+#define LED_DATA_PIN 13
+
+//Use brightness control based on light intensity.
+const bool measureLight = false;
+
+//set analog input pin for light measurement
+#define LUX_PIN A0
+
+//Settings for lux measurement -> led brightness
+//max brightness not above 255
+float max_brightness = 255;
+float min_brightness = 15;
+float lux_max_brightness = 2.5;
+float lux_min_brightness = 1;
+float lux_cutoff = 0.25;
+
+//Select which animation to display. 0 is no animation. -1 is random animation.
+int animationType = -1;
+//Set interval for animation. 1 is every minute. 5 is every 5 minutes. 60 is every hour.
+int animationInterval = 1;
+
+//set colors
+const int nr_of_colors = 5;
+int colors[5][4] = {{150,255,150,0},//color of five,ten,quarter,twenty
+                    {255,255,0,0},//color of to,past
+                    {255,120,120,0},//color of half
+                    {0,255,255,0},//color of the hours
+                    {255,255,0,0}};//color of IT IS and o'clock
 
 const int rows = 8;
 const int cols = 8;
@@ -30,6 +70,7 @@ const int half[rows] = {0,0,0b1111,0,0,0,0,0};
 const int five[rows] = {0,0b11110000,0,0,0,0,0,0};
 const int ten[rows] = {0b1111,0,0,0,0,0,0,0};
 const int quarter[rows] = {0b11111000,0,0,0,0,0,0,0};
+const int twenty[rows] = {0,0,0,0,0,0,0,0};
 const int past[rows] = {0,0,0b11110000,0,0,0,0,0};
 const int to[rows] = {0,0b1111,0,0,0,0,0,0};
 const int oclock[rows] = {0,0,0,0,0,0,0,0};
