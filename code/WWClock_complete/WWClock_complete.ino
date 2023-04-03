@@ -29,8 +29,11 @@ int hour, minute;
 //Uncomment correct clock config or create your own file
 
 //#include "NL9x9.h"
-#include "EN9x9.h"
-
+//#include "EN9x9.h"
+//#include "NL8x8_matrix.h"
+#include "EN9x9_First_EN.h"
+//#include "NL9x9_Wouter.h"
+//#include "NL8x8_Test.h"
 
 //uncomment correct language file or create your own
 
@@ -247,13 +250,17 @@ void loop() {
                 //HEX color to rgb
                 sscanf(thiscolor, "#%02x%02x%02x", &r, &g, &b);
                 Serial.println(String(thiscolor) + " - " + String(r) + " - " + String(g) + " - " + String(b));
-                if (rgbw) {
+                if (rgbw && r == g && g == b) {
                   //calculate white led if ledstrip is rgbw
-                  int minimum = min(min(r, g), min(g, b));
+                  /*int minimum = min(min(r, g), min(g, b));
                   colors[a][0] = r - minimum;
                   colors[a][1] = g - minimum;
                   colors[a][2] = b - minimum;
-                  colors[a][3] = minimum;
+                  colors[a][3] = minimum;*/
+                  colors[a][0] = 0;
+                  colors[a][1] = 0;
+                  colors[a][2] = 0;
+                  colors[a][3] = r;
                 } else {
                   colors[a][0] = r;
                   colors[a][1] = g;
@@ -282,6 +289,17 @@ void loop() {
   if (startMillis != 0) {
     resetState(cs);
     setClock();
+
+    //indicate long time (21600000 = 6 hours) no timing
+    if (startMillis + 21600000 < millis()) {
+      int noConnColor[4] = {255,100,100,0};
+      setClockState(notime,noConnColor);
+      if ((WiFi.status() == WL_CONNECTED)) {
+        int noTimeColor[4] = {255,230,100,0};
+        setClockState(notime,noTimeColor);
+      }
+    }
+
     if (animation == 0) {   
       showState(cs);
       delay(900);

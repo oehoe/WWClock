@@ -72,6 +72,9 @@ const int pixelPos[9][9] = {
 //T','W','E','L','V','E','S','I','X'],
 
 const int wifi[rows] = {0,0b10000000,0b10000000,0,0,0b1100,0,0,0};
+//indicate long time no time update
+const int notime[rows] = {0,0,0,0,0,0,0,0,0b1};
+
 const int itis[rows] = {0,0,0,0,0,0,0,0,0};
 const int half[rows] = {0,0,0b1111,0,0,0,0,0,0};
 const int five[rows] = {0,0,0b111100000,0,0,0,0,0,0};
