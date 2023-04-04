@@ -17,7 +17,13 @@
 #include <ESPmDNS.h>
 #define B_RATE 115200
 
+
+//Debug: setting offline to true skips connect to wifi and shows test sequence.
 const bool offline = false;
+
+//Debug. Add brightness info to url.
+const bool addLux = true;
+
 const int cs = 0;
 const int ds = 1;
 int hour, minute;
@@ -29,11 +35,7 @@ int hour, minute;
 //Uncomment correct clock config or create your own file
 
 //#include "NL9x9.h"
-//#include "EN9x9.h"
-//#include "NL8x8_matrix.h"
-#include "EN9x9_First_EN.h"
-//#include "NL9x9_Wouter.h"
-//#include "NL8x8_Test.h"
+#include "EN9x9.h"
 
 //uncomment correct language file or create your own
 
@@ -225,7 +227,7 @@ void loop() {
       WiFiClient client;
       HTTPClient http;
       String url = String(TIME_URL);
-      if (true) url = String(TIME_URL) + "&lux=" + String(lux) + "&bright=" + String(brightness);
+      if (addLux) url = String(TIME_URL) + "&lux=" + String(lux) + "&bright=" + String(brightness);
       Serial.println("[HTTP] begin...\n");
       Serial.println("URL: " + url);
       if (http.begin(client, url)) {
@@ -278,6 +280,9 @@ void loop() {
           }
         }
       }
+    } else {
+      //create 1 minute delay before next attempt to load url
+      startMillis += 60000;
     }
   }
 
@@ -290,13 +295,11 @@ void loop() {
     resetState(cs);
     setClock();
 
-    //indicate long time (21600000 = 6 hours) no timing
+    //indicate long time (21600000 = 6 hours) no timing. Red if not connected. Blue if connected but unable to load url.
     if (startMillis + 21600000 < millis()) {
-      int noConnColor[4] = {255,100,100,0};
-      setClockState(notime,noConnColor);
+      setClockState(notime,aniColors[1]);
       if ((WiFi.status() == WL_CONNECTED)) {
-        int noTimeColor[4] = {255,230,100,0};
-        setClockState(notime,noTimeColor);
+        setClockState(notime,aniColors[5]);
       }
     }
 
