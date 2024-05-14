@@ -1,4 +1,4 @@
-//NETHERLANDS 9x9
+//DUTCH 9x9
 
 //////////////////
 //START USER INPUT
@@ -13,6 +13,8 @@
 //set correct type of ledstrip. Ref: https://github.com/adafruit/Adafruit_NeoPixel
 //For WS2812b: NEO_GRB
 //For SK6812: NEO_GRBW
+
+//#define STRIP_TYPE NEO_GRB
 #define STRIP_TYPE NEO_GRBW
 
 //set true if ledstrip is rgbw ledstrip
@@ -33,7 +35,7 @@ const bool rgbw = false;
 int brightness = 255;
 
 //Select which animation to display. 0 is no animation. -1 is random animation.
-int animationType = -1;
+int animationType = 0;
 //Set interval for animation. 1 is every minute. 5 is every 5 minutes. 60 is every hour.
 int animationInterval = 5;
 

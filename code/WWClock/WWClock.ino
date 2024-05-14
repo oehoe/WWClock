@@ -1,11 +1,26 @@
-#include <Arduino.h>
+/*
+
+WWClock. 3D printed WiFi Wordclock
+
+Copyright (C) 2024 J den Uijl
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+*/
+
 #include <ArduinoJson.h>
 #include <Adafruit_NeoPixel.h> // https://github.com/adafruit/Adafruit_NeoPixel
 #include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
-#include <WiFiUdp.h>
-#include <ArduinoOTA.h>
 
 //ESP8266
+#include <Arduino.h>
+#include <WiFiUdp.h>
+#include <ArduinoOTA.h>
 #include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
 #include <ESP8266mDNS.h>
@@ -25,14 +40,14 @@ int hour, minute;
 
 //Uncomment correct clock config or create your own file
 
-#include "NL9x9.h"
-//#include "EN9x9.h"
+//#include "NL9x9.h"
+#include "EN9x9.h"
 
 
 //uncomment correct language file or create your own
 
-//#include "EN.h"
-#include "NL.h"
+//#include "NL.h"
+#include "EN.h"
 
 ///////////////////
 //END USER INPUT
@@ -83,7 +98,7 @@ void setup() {
   WiFi.hostname(WIFI_CLOCK_NAME);
 
   //reset wifi settings
-  wm.resetSettings();
+  //wm.resetSettings();
 
   if (offline) {
     testAllWords();
