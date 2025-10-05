@@ -164,6 +164,7 @@ void setup() {
   ArduinoOTA.setHostname(WIFI_CLOCK_NAME);
 
   ArduinoOTA.onProgress([](unsigned int progress, unsigned int total) {
+    startMillis = 0;
     Serial.printf("Progress: %u%%\r", (progress / (total / 100)));
     unsigned int disp_prog = 10 - (progress / (total / 10));
     if (disp_prog > 0) {
@@ -176,7 +177,7 @@ void setup() {
   ArduinoOTA.begin();
 
   // FreeRTOS taken starten
-  xTaskCreate(wifiTask, "WiFiTask", 8192, NULL, 3, &wifiTaskHandle);
+  xTaskCreate(wifiTask, "WiFiTask", 4096, NULL, 3, &wifiTaskHandle);
   xTaskCreate(ledTask, "LedTask", 2048, NULL, 1, &ledTaskHandle);
 }
 

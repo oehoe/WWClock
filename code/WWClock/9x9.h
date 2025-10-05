@@ -113,22 +113,23 @@ public:
       setClockState(bitmap[QUARTER], colors[0]);
       setClockState(bitmap[PAST], colors[1]);
     } else if (minute < 20) {
-      setClockState(bitmap[TWENTY], colors[0]);
-      setClockState(bitmap[PAST], colors[1]);
+      setClockState(bitmap[TEN], colors[0]);
+      setClockState(bitmap[TO], colors[1]);
+      setClockState(bitmap[HALF], colors[2]);
     } else if (minute < 25) {
-      setClockState(bitmap[TWENTY], colors[0]);
       setClockState(bitmap[FIVE], colors[0]);
-      setClockState(bitmap[PAST], colors[1]);
+      setClockState(bitmap[TO], colors[1]);
+      setClockState(bitmap[HALF], colors[2]);
     } else if (minute < 30) {
       setClockState(bitmap[HALF], colors[2]);
-      setClockState(bitmap[PAST], colors[1]);
     } else if (minute < 35) {
-      setClockState(bitmap[TWENTY], colors[0]);
       setClockState(bitmap[FIVE], colors[0]);
-      setClockState(bitmap[TO], colors[1]);
+      setClockState(bitmap[PAST], colors[1]);
+      setClockState(bitmap[HALF], colors[2]);
     } else if (minute < 40) {
-      setClockState(bitmap[TWENTY], colors[0]);
-      setClockState(bitmap[TO], colors[1]);
+      setClockState(bitmap[TEN], colors[0]);
+      setClockState(bitmap[PAST], colors[1]);
+      setClockState(bitmap[HALF], colors[2]);
     } else if (minute < 45) {
       setClockState(bitmap[QUARTER], colors[0]);
       setClockState(bitmap[TO], colors[1]);
@@ -189,7 +190,7 @@ public:
   }
   void setClock(int hour, int minute) {
     pixels.clear();
-    if (minute > 14) hour = hour + 1;
+    if (minute > 29) hour = hour + 1;
     if (hour == 0) hour = 12;
     if (hour > 12) hour = hour - 12;
     setClockState(bitmap[hour - 1], colors[3]);
@@ -204,23 +205,22 @@ public:
       setClockState(bitmap[QUARTER], colors[0]);
       setClockState(bitmap[PAST], colors[1]);
     } else if (minute < 20) {
-      setClockState(bitmap[TEN], colors[0]);
-      setClockState(bitmap[TO], colors[1]);
-      setClockState(bitmap[HALF], colors[2]);
+      setClockState(bitmap[TWENTY], colors[0]);
+      setClockState(bitmap[PAST], colors[1]);
     } else if (minute < 25) {
+      setClockState(bitmap[TWENTY], colors[0]);
       setClockState(bitmap[FIVE], colors[0]);
-      setClockState(bitmap[TO], colors[1]);
-      setClockState(bitmap[HALF], colors[2]);
+      setClockState(bitmap[PAST], colors[1]);
     } else if (minute < 30) {
       setClockState(bitmap[HALF], colors[2]);
+      setClockState(bitmap[PAST], colors[1]);
     } else if (minute < 35) {
+      setClockState(bitmap[TWENTY], colors[0]);
       setClockState(bitmap[FIVE], colors[0]);
-      setClockState(bitmap[PAST], colors[1]);
-      setClockState(bitmap[HALF], colors[2]);
+      setClockState(bitmap[TO], colors[1]);
     } else if (minute < 40) {
-      setClockState(bitmap[TEN], colors[0]);
-      setClockState(bitmap[PAST], colors[1]);
-      setClockState(bitmap[HALF], colors[2]);
+      setClockState(bitmap[TWENTY], colors[0]);
+      setClockState(bitmap[TO], colors[1]);
     } else if (minute < 45) {
       setClockState(bitmap[QUARTER], colors[0]);
       setClockState(bitmap[TO], colors[1]);
